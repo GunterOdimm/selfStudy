@@ -1,0 +1,17 @@
+package study.java.code;
+
+public class test {
+    public static void main (String[] args){
+        String[] participant = [20];
+
+        for(int i=0; i< 20; i++) {       
+            for (int j = 1; j <= 20; j++) {
+                char name = (char) ((Math.random() * 26) + 65);
+                String[] participant;
+                
+                System.out.println(participant[i]);
+    	    }
+        }
+    }
+
+}

@@ -5,7 +5,6 @@ public class forEx {
 		int[] items = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 		for (int tmp : items) {
 			System.out.println(tmp);
-			i++;
 		}
 		/*
 		 * 위 반복문은 최신 트랜드 반복문인데

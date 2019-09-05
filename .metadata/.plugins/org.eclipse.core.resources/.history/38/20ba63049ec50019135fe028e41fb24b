@@ -1,0 +1,33 @@
+package study.java.code;
+
+public class test {
+    public String solution(String[] participant, String[] completion) {
+        String answer = "";
+
+        // 참가자 순서대로 완주자 명단에 이름이 있는지 탐색
+        for(int i=0; i<participant.length; i++) {
+
+            // 완주자 명단에 이름이 있는지 여부 
+            boolean complete = false;
+
+            // 완주자 명단에서 해당 참가자의 이름이 있는지 찾는 반복문
+            for(int j=0; j<completion.length; j++) {
+                if(participant[i] == completion[j]) {
+                    // 있으면 완주로 표시
+                    complete = true;
+                    // 한 번 완주한 사람은 완주자 명단에서 삭제 --> 동명이인이 있을 때를 대비
+                    completion[j] = "";
+                } 
+            }
+
+            System.out.println(participant[i] + ":" + complete);
+            // 완주자 명단에 해당 참가자의 이름이 없으면 변수에 참가자 이름을 저장하고 반복문 종료 
+            if(!complete) {
+                answer = participant[i];
+                break;
+            }
+        }
+        return answer;
+    }
+}
+}
