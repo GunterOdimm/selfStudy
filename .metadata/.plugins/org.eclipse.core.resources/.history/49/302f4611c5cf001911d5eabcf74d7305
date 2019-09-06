@@ -1,0 +1,24 @@
+package study.java.code;
+
+public class whoIsFinish {
+	public static void main(String[] args) {
+		String[] participant = { "leo", "kiki", "eden"};
+		String[] completion = { "kiki", "eden"};
+
+		String answer = "";
+		boolean user = true;
+		for (int i = 0; i < participant.length; i++) {
+			for (int j = 0; j < completion.length; j++) {
+				if(participant[i]==completion[j]) {
+					user = false;
+					break;
+				}
+			}
+			if(user) {
+				answer = participant[i];
+			}
+			
+		}
+		System.out.println(answer);
+	}
+}

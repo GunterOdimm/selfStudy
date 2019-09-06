@@ -1,8 +1,0 @@
-package study.java.code;
-
-public class variableToggle {
-	public static void main(args[] ) {
-		
-	}
-
-}

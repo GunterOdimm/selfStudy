@@ -1,0 +1,16 @@
+package study.java.code;
+
+public class whoIsFinish {
+    public static void main(String[] args) {
+    	String[] participant = [leo, kiki, eden];
+        String answer = "";
+        for(int i=0; i <= participant.length; i++){
+            for(int j=0; j <= completion.length; j++){
+                if(completion[j] != participant[i]){
+                    answer = participant[j];
+                }
+            }
+        }
+        return answer;
+    }
+}
