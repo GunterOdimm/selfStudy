@@ -1,0 +1,12 @@
+package study.java.code;
+
+public class kakaotest02 {
+	public static void main(String[] args) {
+		int answer = 0;
+
+		String p = "(()())()";
+		String[] userInputArray;
+		userInputArray = p.split("");
+
+	}
+}

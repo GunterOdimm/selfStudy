@@ -1,0 +1,23 @@
+package study.java.code;
+
+public class kakaoTest01 {
+	public static void main(String[] args) {
+		int answer = 0;
+		
+		String s = "aabbaccc";
+		String[] userInputArray;
+
+		userInputArray = s.split("");
+		
+		for (int i = 0; i < userInputArray.length; i++) {
+			int count = 1;
+			if(userInputArray[i] == userInputArray[i+1]) {
+				count++;
+			}else {
+				i = i+1;
+			}
+
+		}
+		System.out.println(count);
+	}
+}
