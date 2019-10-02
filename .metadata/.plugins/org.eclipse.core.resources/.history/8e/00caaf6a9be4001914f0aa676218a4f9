@@ -1,0 +1,28 @@
+package study.java.code;
+
+public class forbaybe {
+	public static void main(String[] args) {
+		
+		int userInput=0;
+		int userStar = (userInput * 2) - 1;
+		/*
+		 * 2.이렇게
+		 */
+		for(int i =1;i <= userStar; i++) {
+			/* 
+			 * 1.이코드에 문제점
+			 * sb를 for문밖에 할당한건 OK인데
+			 * 그값이 홀수값을 의미하는것도 전역변수(for문 밖에다가 선언하는게 좋다)
+			 */
+			int c=i;
+			for (int j = 0; j < c; j++) {
+				if(c >= userInput+1) {
+					c = userInput*2 - i;
+				}
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+}
