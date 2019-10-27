@@ -6,26 +6,37 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="test_Frame2"/>
+		<item key="selection" value="count"/>
 		<list key="findhistory">
-			<item value="jbt1"/>
-			<item value="test_Frame2"/>
-			<item value="ImagePuzzle01"/>
+			<item value="count"/>
+			<item value="print"/>
+			<item value="endgame"/>
+			<item value="endGame"/>
+			<item value="shuffle"/>
+			<item value="t"/>
+			<item value="test_Frame"/>
+			<item value="b"/>
+			<item value="target"/>
+			<item value="score"/>
+			<item value="fp`"/>
 			<item value="main"/>
-			<item value="ㅡㅁ"/>
-			<item value="new"/>
-			<item value="package study.java.code;"/>
+			<item value="tempB"/>
+			<item value="tempA"/>
+			<item value="temp"/>
 		</list>
 		<list key="replacehistory">
+			<item value="test_Frame3"/>
+			<item value="game[b]"/>
+			<item value="game[a]"/>
+			<item value="size"/>
 			<item value="easy"/>
 			<item value="test_Frame4"/>
-			<item value="test_Frame3"/>
 			<item value="test_Frame2"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1364"/>
-		<item key="DIALOG_Y_ORIGIN" value="329"/>
+		<item key="DIALOG_X_ORIGIN" value="1557"/>
+		<item key="DIALOG_Y_ORIGIN" value="191"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="373"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
